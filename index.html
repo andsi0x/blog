@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" tyoe="text/css" href="css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <script type="text/javascript" src="js/layout.js"></script>
 </head>
-<body>
-    
-    <nav class="main-nav">
-        <div class="ribbon">
-            <div class="ribbon-title">Blog</div>
+<body onload='layout("card", 2);'>
+    <nav>
+        <div class="title">
+            <h1>BLOG</h1>
         </div>
+        
     </nav>
     
-    <section class="card-section">
-        
-    </section>
-    
-    <section class="card-section">
-        
-    </section>
-    
-    <section class="card-section">
-        
-    </section>
-    
+    <div class="board" layout="row" layout-wrap>
+        <div class="card">
+            <h1>Hello World</h1>
+            <div class="img-container"><img src="img/posts_april/CNC_Hello_World.jpg"></div>
+            <p>And this will be my new website.</p>
+            <p>Hope you like it.</p>
+            <a href="www.google.com">Just a link for testing.</a>
+        </div>
+        <div class="card">
+            <h1>FOR TESTING PURPOSES</h1>
+            <p>A lot of text just to fill this black space. "Remember, remember, the 5th of November; The Gunpowder treason and plot; I remeber of no reason; Why the gunpowder treason; Should ever be forgot."</p>
+        </div>
+        <div class="card">
+            <h1>A Leonor adora gatos... toda a gente sabe...</h1>
+            <div class="img-container"><img src="img/posts_april/leonor_cats.jpg"></div>
+        </div>
+        <div class="card">
+            <h1>True Jungle King</h1>
+            <div class="img-container"><img src="img/posts_april/wet_cat.jpg"></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
